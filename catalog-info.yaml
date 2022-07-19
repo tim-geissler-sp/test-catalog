@@ -11,7 +11,7 @@ metadata:
   links:
     - url: https://github.com/tim-geissler-sp/test-catalog
       title: Github Repo
-      icon: dashboard
+      icon: github
       type: admin-dashboard
 spec:
   type: service
