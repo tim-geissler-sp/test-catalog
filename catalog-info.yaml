@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ${{values.name}}
+  description: ${{values.description}}
+  annotations:
+    github.com/project-slug: ${{values.owner + "/" + values.repourl}}
+  tags: 
+    - atlas-go
+    - rest-api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: ${{values.owner}}
