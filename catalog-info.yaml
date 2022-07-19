@@ -8,6 +8,11 @@ metadata:
   tags: 
     - atlas-go
     - rest-api
+  links:
+    - url: https://github.com/tim-geissler-sp/test-catalog
+      title: Github Repo
+      icon: dashboard
+      type: admin-dashboard
 spec:
   type: service
   lifecycle: experimental
