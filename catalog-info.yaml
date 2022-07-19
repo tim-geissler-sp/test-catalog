@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ${{values.name}}
-  description: ${{values.description}}
+  name: WebService1
+  description: TDG test web service registration
   annotations:
-    github.com/project-slug: ${{values.owner + "/" + values.repourl}}
+    github.com/project-slug: GHSlug
   tags: 
     - atlas-go
     - rest-api
 spec:
   type: service
   lifecycle: experimental
-  owner: ${{values.owner}}
+  owner: tdg
